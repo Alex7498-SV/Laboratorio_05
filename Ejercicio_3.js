@@ -14,3 +14,12 @@ function fibo(n){
 
 
 }
+
+
+function llamadafibo(n){
+    let ar = [];
+    for(let i = 0; i<n; i++){
+        ar.push(fibo(i));
+    }
+    console.log(ar);
+}
